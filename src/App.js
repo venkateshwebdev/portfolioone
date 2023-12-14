@@ -17,6 +17,7 @@ function App() {
   const [navScroll,setNavScroll] = useState(false);
   return (
     <BrowserRouter>
+
     <ThemeContext.Provider value={{addDiv,setAddDiv,navScroll,setNavScroll}}>
     <div className={`App ${addDiv}`}>
       <Navbar  />
